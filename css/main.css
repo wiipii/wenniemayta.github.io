@@ -1,0 +1,131 @@
+body
+{
+  color: #555555;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+h1,h2,h3,h4
+{
+
+  color: #A9268D;
+  font-family: "Oswald",Arial,sans-serif;
+  text-align: center;
+}
+
+.list-nav
+{
+  text-align: center;
+}
+
+.list-nav li
+{
+  display:inline-block;
+}
+
+.list-nav a
+{
+  display: block;
+  padding: 5px 20px; 
+  color: #555;
+  font-family: "Oswald",Arial,sans-serif;
+  transition:all 0.5s;
+}
+  /*text-transform: uppercase;TEXTO A MAYUSCULA
+  text-decoration: none;NO SUBRAYADO
+  */  
+  
+.list-nav a:hover
+{
+  text-decoration: none;
+  background: #ECECEC;
+  transform:scale(1.2);
+}
+.header-content
+{
+  background: url("../img/dondo.jpg");
+  color: #FFF;
+  text-align: center;
+  padding: 50px 0px;
+  height:400px; 
+}
+
+.header-content p
+{
+  font-size: 90px;
+color: #FFF;
+
+}
+.about-me .biografia img
+{
+  float:left;
+  width: 200px;
+  margin-right: 15px;
+  border:1px solid #555;
+  padding: 5px;
+  /*thumbnall pone pading autiomatiko*/
+
+}
+
+.about-me
+{
+  background: url("../img/tile1.png");
+   text-align: justify;
+}
+
+
+.favoritos
+
+{
+
+text-align: center; 
+padding: 30px;
+}
+
+
+
+.favoritos img
+{
+  border-radius: 100%;
+  width: 180px;
+  margin-right: 15px;
+  border:1.8px solid #555;
+  padding: 5px;
+}
+
+
+.contacto
+
+{ 
+background: url("../img/tile2.png");
+}
+
+.redes
+{
+  text-align: center;
+  padding: 10px;
+}
+
+.redes img
+{
+  border-radius: 100%;
+  width: 120px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+
+
+
+
+.about-me p
+{
+  font-size: 20px;
+  font-color:black; 
+}
+
+
+
+.navbar-nav > li > a {
+    padding-top: 8px;
+   
+}
